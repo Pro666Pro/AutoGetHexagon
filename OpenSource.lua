@@ -16,26 +16,26 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
 })
 
 repeat task.wait(.2) until workspace:FindFirstChild("Part I") and game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart")
-task.wait(3)
+task.wait(5)
 workspace["Part I"].Obby["end"].CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
 repeat task.wait(.2) until workspace:FindFirstChild("Part 2") and game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart")
-task.wait(3) -- waiting some time cuz script may break
+task.wait(5) -- waiting some time cuz script may break
 workspace["Part 2"]["Adjacent Island"].PortalActivator.CanCollide = false
 workspace["Part 2"]["Adjacent Island"].PortalActivator.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
 repeat task.wait(.1) until workspace["Part 2"]:FindFirstChild("Portal")
 workspace["Part 2"].Portal.CanCollide = false
 workspace["Part 2"].Portal.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
 repeat task.wait(.2) until workspace:FindFirstChild("Part 3") and game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart")
-task.wait(3)
+task.wait(5)
 fireclickdetector(workspace["Part 3"].TpToNext.HitBox.Click)
 repeat task.wait(.2) until workspace:FindFirstChild("Part 4") and game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart")
-task.wait(3)
+task.wait(5)
 workspace["Part 4"].TPPart.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
 repeat task.wait(.2) until workspace:FindFirstChild("Part 5") and game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart")
-task.wait(3)
+task.wait(5)
 fireclickdetector(workspace["Part 5"].Glove.Hitbox.Click)
 repeat task.wait(.2) until workspace:FindFirstChild("Finale") and game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart")
-task.wait(3)
+task.wait(5)
 fireclickdetector(workspace.Finale.Reward.Hitbox.Click)
 
 elseif game.PlaceId == 11520107397 or game.PlaceId == 9015014224 or game.PlaceId == 6403373529 then
@@ -84,26 +84,26 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
 	Duration = 36000
 })
 repeat task.wait(.2) until workspace:FindFirstChild("Part I") and game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart")
-task.wait(3)
+task.wait(5)
 workspace["Part I"].Obby["end"].CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
 repeat task.wait(.2) until workspace:FindFirstChild("Part 2") and game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart")
-task.wait(3) -- waiting some time cuz script may break
+task.wait(5) -- waiting some time cuz script may break
 workspace["Part 2"]["Adjacent Island"].PortalActivator.CanCollide = false
 workspace["Part 2"]["Adjacent Island"].PortalActivator.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
 repeat task.wait(.1) until workspace["Part 2"]:FindFirstChild("Portal")
 workspace["Part 2"].Portal.CanCollide = false
 workspace["Part 2"].Portal.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
 repeat task.wait(.2) until workspace:FindFirstChild("Part 3") and game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart")
-task.wait(3)
+task.wait(5)
 fireclickdetector(workspace["Part 3"].TpToNext.HitBox.Click)
 repeat task.wait(.2) until workspace:FindFirstChild("Part 4") and game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart")
-task.wait(3)
+task.wait(5)
 workspace["Part 4"].TPPart.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
 repeat task.wait(.2) until workspace:FindFirstChild("Part 5") and game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart")
-task.wait(3)
+task.wait(5)
 fireclickdetector(workspace["Part 5"].Glove.Hitbox.Click)
 repeat task.wait(.2) until workspace:FindFirstChild("Finale") and game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart")
-task.wait(3)
+task.wait(5)
 fireclickdetector(workspace.Finale.Reward.Hitbox.Click)
 	]])
 end
