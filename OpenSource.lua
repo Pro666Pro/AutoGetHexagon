@@ -54,7 +54,7 @@ fireclickdetector(workspace.Lobby["Obby"].ClickDetector) -- Equiping obby
 repeat task.wait(.1) until game.Players.LocalPlayer.leaderstats.Glove.Value == "Obby"
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Lobby["Teleport1"].CFrame
 repeat task.wait(.1) until game.Players.LocalPlayer.Character:FindFirstChild("entered") -- Waiting for our character to get teleported to arena
-task.wait(.1)
+task.wait(.6)
 -- Creating table so we can easily use all args
 partspos = {
     [1] = CFrame.new(241.82754516601562, -18.416065216064453, 4.669858455657959) * CFrame.Angles(2.5299831118985594e-09, 1.1053541898727417, -2.506274521252294e-09),
