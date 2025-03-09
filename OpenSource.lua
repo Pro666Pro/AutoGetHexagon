@@ -38,7 +38,7 @@ repeat task.wait(.2) until workspace:FindFirstChild("Finale") and game.Players.L
 task.wait(5)
 fireclickdetector(workspace.Finale.Reward.Hitbox.Click)
 
-elseif game.PlaceId == 11520107397 or game.PlaceId == 9015014224 or game.PlaceId == 6403373529 then
+elseif game.PlaceId == 11520107397 or game.PlaceId == 9015014224 or game.PlaceId == 6403373529 or game.PlaceId == 124596094333302 then
 if not game.IsLoaded then
 game.Loaded:Wait()
 end
